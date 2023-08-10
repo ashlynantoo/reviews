@@ -64,7 +64,7 @@ body {
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 h2,
@@ -80,7 +80,7 @@ h2 {
 }
 
 h4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 p {
@@ -91,14 +91,6 @@ p {
 @media screen and (min-width: 800px) {
   h2 {
     font-size: 2.5rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-
-  body {
-    font-size: 1rem;
   }
 
   h2,
@@ -190,23 +182,24 @@ main {
 }
 
 .author {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .job {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   color: var(--clr-primary-5);
-  font-size: 0.85rem;
+  font-size: 0.875rem;
 }
 
 .info {
   margin-bottom: 0.75rem;
+  text-align: justify;
 }
 
 .prev-btn,
 .next-btn {
-  color: var(--clr-primary-7);
+  color: var(--clr-primary-5);
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -217,13 +210,13 @@ main {
 
 .prev-btn:hover,
 .next-btn:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-7);
 }
 
 .random-btn {
   margin-top: 0.5rem;
-  background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
   padding: 0.25rem 0.5rem;
   text-transform: capitalize;
   border-radius: var(--radius);
@@ -233,6 +226,5 @@ main {
 }
 
 .random-btn:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-1);
+  background: var(--clr-primary-7);
 }
